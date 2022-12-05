@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: #FFFFFF;
+}
+section{
+    width: 100%;
+    margin-bottom: 200px;
+}
+/*    haed    */
+.schaed{
+    margin-bottom: 0;
+}
+.haed{
+    background: #F39C12;
+    height: auto;
+    padding: 30px 120px;
+    border-bottom: #585858 solid 1px;
+}
+.haed img{
+    width: 5%;
+    float: left;
+    max-width: 100%;
+    border-radius: 150px;
+}
+.haed nav{
+    margin-top: 20pt;
+}
+.haed nav a{
+    font-size: 1.1em;
+    margin-right: 30pt;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.haed nav a:hover{
+    background: #585858;
+    color: rgb(231, 231, 231);
+}
+/*    whork    */
+.whork{
+    width: 100%;
+    height: auto;
+    margin-bottom: 750px;
+}
+.whork img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    max-width: 100%;
+}
+.whork .taok{
+    width: 28%;
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.whork .taok h1{
+    letter-spacing: 2px;
+}
+.whork .taok h3{
+    letter-spacing: 1px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+/*    gaoz    */
+.gaoz{
+    padding: 75px 0;
+    margin-bottom: 20%;
+    background: #F39C12;
+}
+.imggaoz{
+    display: inline-block;
+}
+.imggaoz img{
+    width: 60%;
+}
+.imggaoz h4{
+    margin-top: 5%;
+    letter-spacing: 0.8px;
+}
+/*    scmenu    */
+.scmenu{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20%;
+}
+.menu{
+    margin-bottom: 5%;
+}
+.scmenu h1{
+    width: 25%;
+    margin: auto;
+    letter-spacing: 1px;
+    padding: 20px 50px;
+    margin-bottom: 5%;
+    border-bottom: #000000 1px solid;
+}
+.scmenu a{
+    letter-spacing: 1px;
+    text-align: right;
+    margin-bottom: 1%;
+    display: block;
+    font-size: 1.4em;
+    color: #F39C12;
+}
+.scmenu .ordr{
+    width: 24.8%;
+    display: inline-block;
+    margin-top: 10px;
+}
+.scmenu img{
+    height: 300px;
+    width: 70%;
+    max-width: 100%;
+}
+.scmenu .title{
+    width: 70%;
+    margin-top: -5px;
+    letter-spacing: 1px;
+    background: #34495E;
+    padding: 3px;
+    margin: auto;
+}
+.scmenu .title h3{
+    color: rgb(226, 226, 226);
+}
+.scmenu .title button{
+    font-size: 1.4em;
+    margin-top: 3%;
+    border-radius: 2px;
+    color: #F39C12;
+    width: 100%;
+    padding: 15px;
+    background: none;
+    border: none;
+    transition: all 0.4s;
+}
+.scmenu .title button:hover{
+    background: #303841;
+    transform: 0.9;
+}
+/*    footer    */
+.scfotr{
+    background: #F39C12;
+    margin: auto;
+    height: 250px;
+    padding: 10px 0;
+}
+.fotr{
+    width: 80%;
+    margin: auto;
+}
+.coneact{
+    width: 20%;
+    float: left;
+    /* background: #303841; */
+}
+.coneact #inputrs{
+    float: right;
+    width: 100%;
+    height: 5px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+.coneact #textar{
+    float: right;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.coneact #sub{
+    float: right;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.coneact #sub:hover{
+    color: white;
+    background-color: #34495E;
+}
+.all{
+    display: inline-flex;
+    margin: 1% 5%;
+}
+.all h3{
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 15px;
+}
+li{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #34495E;
+    list-style-type: none;
+}
+.sm{
+    display: inline;
+    text-align: center;
+    width: 20%;
+    height: 180px;
+    float: right;
+}
+.sm img{
+    width: 45%;
+    border-radius: 150px;
+}
+.fotr .sm a{
+    font-size: 1.4em;
+    color: white;
+    padding-top: 210px;
+}
+::-webkit-scrollbar{
+width: 10px;
+}
+::-webkit-scrollbar-thumb{
+background: #34495E;
+border-radius: 5px;
+}
+
